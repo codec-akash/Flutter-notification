@@ -150,6 +150,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   setState(() {
                     dateTime.add(time.toIso8601String());
                   });
+                  scheduleNotification();
                 },
               ),
             ),
